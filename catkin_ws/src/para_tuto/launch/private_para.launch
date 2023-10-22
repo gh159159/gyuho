@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!--rosrun para_tuto private_para_node-->
+  <node pkg="para_tuto" type="private_para_node" name="private_para_node" respawn="true" output="screen">
+    <param name="ParametaString" value="cgh" type="string"/>
+    <param name="ParametaInt" value="18" type="int"/>
+    <param name="ParametaDouble" value="1.8" type="double"/>
+    <param name="ParametaBool" value="true" type="bool"/>
+    <rosparam param="ParametaArrayInt"> [1, 2, 3, 4, 5] </rosparam>
+    <rosparam param="ParametaArrayDouble"> [2.0, 3.0, 3.0, 4.0, 5.0] </rosparam>
+    <rosparam param="ParametaArrayString"> [cgh, help] </rosparam>
+  </node>
+</launch>

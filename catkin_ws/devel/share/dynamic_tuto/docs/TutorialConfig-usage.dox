@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dynamic_node" pkg="dynamic_tuto" type="dynamic_node">
+  <param name="param_int" type="int" value="1" />
+  <param name="param_double" type="double" value="1.0" />
+  <param name="param_string" type="str" value="Pigeon" />
+  <param name="param_bool" type="bool" value="True" />
+</node>
+\endverbatim
+

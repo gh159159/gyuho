@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="ParametaString" value="cgh" type="string"/>
+  <param name="ParametaInt" value="18" type="int"/>
+  <param name="ParametaDouble" value="1.8" type="double"/>
+  <param name="ParametaBool" value="true" type="bool"/>
+  <rosparam param="ParametaArrayInt"> [1, 8, 1, 8, 1] </rosparam>
+  <rosparam param="ParametaArrayDouble"> [0.2, 0.3, 0.4, 0.6, 0.8] </rosparam>
+  <rosparam param="ParametaArrayString"> [cgh, help] </rosparam>
+
+  <!--rosrun basic_parameta_tutorial basic_global_parameta_node-->
+  <node pkg="para_tuto" type="global_para_node" name="global_para_node" respawn="true" output="screen"/>
+
+</launch>

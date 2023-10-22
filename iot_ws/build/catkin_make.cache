@@ -1,0 +1,2 @@
+midterm2:midterm3
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ROS_practice/iot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS_practice/iot_ws/install -G Unix Makefiles

@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~param_int" : \b [int] Parameta Int min: -9, default: 1, max: 9
+- \b "~param_double" : \b [double] Parameta Dobule min: -9.9, default: 1.0, max: 9.9
+- \b "~param_string" : \b [str] Parameta String min: , default: Pigeon, max: 
+- \b "~param_bool" : \b [bool] Parameta Bool min: False, default: True, max: True
+

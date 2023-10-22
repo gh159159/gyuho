@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/ROS_practice/catkin_ws/install
+
+Name: para_tuto
+Description: Description of para_tuto
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

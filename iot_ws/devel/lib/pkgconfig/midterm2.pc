@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/ROS_practice/iot_ws/devel
+
+Name: midterm2
+Description: Description of midterm2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

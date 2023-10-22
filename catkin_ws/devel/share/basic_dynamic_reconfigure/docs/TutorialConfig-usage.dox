@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dynamic_reconfigure_node" pkg="dynamic_reconfigure" type="dynamic_reconfigure_node">
+  <param name="param_int" type="int" value="1" />
+  <param name="param_double" type="double" value="1.0" />
+  <param name="param_string" type="str" value="cgh" />
+  <param name="param_bool" type="bool" value="True" />
+</node>
+\endverbatim
+

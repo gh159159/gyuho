@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="turtle_dynamic_node" pkg="turtlesim_dynamic" type="turtle_dynamic_node">
+  <param name="parametaLinearX" type="double" value="0.0" />
+  <param name="parametaAngularZ" type="double" value="0.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,2 @@
+dynamic_tuto:para_tuto:turtlesim_control:turtlesim_dynamic
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ROS_practice/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS_practice/catkin_ws/install -G Unix Makefiles

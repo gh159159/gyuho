@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/ROS_practice/catkin_ws/install
+
+Name: turtlesim_dynamic
+Description: Description of turtlesim_dynamic
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

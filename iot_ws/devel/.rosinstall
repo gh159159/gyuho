@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/ROS_practice/iot_ws/devel/setup.sh

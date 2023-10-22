@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="linear_velocity" value="1.0" />
+  <param name="angular_velocity" value="1.0" />
+
+  <!--rosrun turtlesim_control turtle_control_nodenode-->
+  <node pkg="turtlesim_control" type="turtle_control_node" name="turtle_control_node" respawn="true" output="screen"/>
+
+</launch>
